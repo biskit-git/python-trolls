@@ -12,7 +12,3 @@ while True:
         subprocess.Popen("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
 
 mouse_msedge()
-
-
-     
-
