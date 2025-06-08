@@ -9,8 +9,10 @@ def mouse_msedge():
   time.sleep(0.001)
   pyautogui.mouseDown(520, 450, duration=5)
 
-while True:
+  while True:
         time.sleep(0.001)
         subprocess.Popen("C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe")
-
+        time.sleep(0.1)
+        pyautogui.write('https://pornhub.com')
+        pyautogui.press('enter')
 mouse_msedge()
